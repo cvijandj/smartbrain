@@ -1,0 +1,7 @@
+.signOutWrapper{
+    background: linear-gradient(180deg,  #2a282a 0%, #495758 100%);
+    margin-left: 3px;
+    border-radius: 0.5rem;
+    opacity: 0.6;
+    border-color: black;
+}

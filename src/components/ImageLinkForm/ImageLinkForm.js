@@ -5,7 +5,7 @@ import './ImageLinkForm.css'
 const ImageLinkForm = ({ onInputChange, onButtonSubmit, onHereSubmit}) => {
     return (
         <div>
-            <p className='f5 f3-ns'>
+            <p className='f5 b black f3-ns'>
                 {'This Magic Brain will detect faces in your picture, give it a try, pass link to your picture'}
             </p>
             <p className='f5 f3-ns'>{'This is the '} <span className='b pointer shadow-hover light-blue' onClick={onHereSubmit}> {'example.'}</span></p>

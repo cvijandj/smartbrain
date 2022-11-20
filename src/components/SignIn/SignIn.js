@@ -42,14 +42,14 @@ class SignIn extends React.Component {
         <main className="pa4 black-80">
         <div className="measure">
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-            <legend className="f2 f3-m fw6 dib  ph0 mh0">Sign In</legend>
+            <legend className="f2 f3-m fw6 dib b ph0 mh0">Sign In</legend>
             <div className="mt3">
-              <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
+              <label className="db fw6 b lh-copy f6" htmlFor="email-address">Email</label>
               <input onChange={this.onEmailChange} 
               className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-200" type="email" name="email-address"  id="email-address"/>
             </div>
             <div className="mv3">
-              <label className="db fw6 lh-copy f6" htmlFor="password">Password</label>
+              <label className="db fw6 b lh-copy f6" htmlFor="password">Password</label>
               <input onChange={this.onPasswordChange}
               className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password"/>
             </div>
@@ -63,7 +63,7 @@ class SignIn extends React.Component {
           </div>
           <div className="lh-copy mt3">
             <p onClick={() => onRouteChange('register')} 
-            className="f6 link dim black db pointer">Register</p>
+            className="f6 link b dim black db pointer">Register</p>
         
           </div>
         </div>
